@@ -1,0 +1,17 @@
+#heading {
+	background-color: #c97124;
+	font-color: #fff;
+}
+
+body {
+	background-image: url("assets/images/backgroundimage.jpg")no-repeat;
+	background-size:100%;
+	padding:0 !important;
+	margin:0;
+}
+
+#instructions {
+	height:250px;
+	width:400px;
+
+}
