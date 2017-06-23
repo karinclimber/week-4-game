@@ -1,17 +1,24 @@
 #heading {
 	background-color: #c97124;
-	font-color: #fff;
 }
 
 body {
-	background-image: url("assets/images/backgroundimage.jpg")no-repeat;
+	/*background-image: url("images/backgroundimage.jpg");*/
 	background-size:100%;
-	padding:0 !important;
-	margin:0;
+	font: #000;
+
 }
 
 #instructions {
-	height:250px;
+	height:300px;
 	width:400px;
+	background-color: #ed8;
+	font: white; 
+	text-align: center;
 
+}
+
+.click {
+	height: 200px;
+	width: 200px;
 }
