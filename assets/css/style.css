@@ -1,24 +1,75 @@
-#heading {
-	background-color: #c97124;
+#title {
+	background-color: #e3aeb7;
+	width:300px;
+	height: 70px;
+	color: #834381;
+	margin-bottom: 10px;
+	font-size: 40px;
+	font-family: "Acme", sans serif;
+	padding-top: 20px;
 }
+
 
 body {
-	/*background-image: url("images/backgroundimage.jpg");*/
+	background-image: url("../images/backgroundimage.jpg");
 	background-size:100%;
-	font: #000;
+	font: #fff;
+	text-align: center;
+	display: inline-block;
 
 }
 
-#instructions {
+.list {
 	height:300px;
-	width:400px;
-	background-color: #ed8;
+	width:300px;
+	background-color: #834381;
 	font: white; 
+	padding:10px;
 	text-align: center;
+	margin-bottom: 10px;
+	font-family: "Acme", sans serif;
 
 }
 
 .click {
 	height: 200px;
 	width: 200px;
+}
+
+.result {
+	height: 150px;
+	width: 150px;
+	background-color: #834381;
+	margin-left: 160px;
+	font-family: "Acme", sans serif;
+}
+
+.randomNumber {
+	width: 150px;
+	height: 150px;
+	background-color: #e3aeb7;
+	margin-right: 20px;
+	font-size: 50px;
+	color:#834381;
+	font-family: "Acme", sans serif;
+}
+
+.score {
+	width: 200px;
+	height:30px;
+	background-color: #834381;
+	margin-bottom: 10px;
+	margin-right: 20px;
+	font: white;
+
+}
+
+.addedScore {
+	width:200px;
+	height:90px;
+	background-color: #834381;
+	font-size: 30px;
+	color: white;
+
+
 }

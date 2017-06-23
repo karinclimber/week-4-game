@@ -5,11 +5,13 @@
 	<title>Crystals Collector</title>
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> 
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
 	<script src="http://code.jquery.com/jquery.js"></script>
+	
 </head>
 <body>
    <header>
-        <h2 id ="title">Crystals Collector!</h2>
+        <h1 id ="title">Crystals Collector!</h1>
    </header>
    <div class="list">
         <ul>
@@ -19,15 +21,17 @@
 		<li> Each time the game starts, the game will change the values of each crystal.</li>
 		</ul>
     </div>
-    <div class="start">
+    <div class= "row">
+		<div class="start" class="col-md-4">
         <div class="randomNumber"></div>
     	
-        <div class="result">
+        <div class="result" class="col-md-4">
         	Wins:<div id="wins"></div>
         	Losses:<div id="losses"></div>
         </div>
     </div>
-    <div class="crystals">
+	</div>
+    <div class="crystals" class="col-md-12">
       	<img src="assets/images/crystal1.jpg" class="click" id="crystal1" alt="First Crystal">
 		<img src="assets/images/crystal2.jpg" class="click" id="crystal2" alt="Second Crystal">
 		<img src="assets/images/crystal3.jpg" class="click" id="crystal3" alt="Third Crystal">
@@ -38,5 +42,13 @@
    </div>
    <div class="addedScore"></div>
    <script type="text/javascript" src="assets/javascript/game.js"></script>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>
