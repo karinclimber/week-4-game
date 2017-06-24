@@ -60,6 +60,7 @@ $(".randomNumber").append(randomNumber);
 $(".addedScore").append(addedScore);
 
 $(document).ready(function(){
+    console.log("document");
 	$("#crystal1").click(function(){
 		addedScore = addedScore + crystal1;
 		logic();
