@@ -3,17 +3,24 @@
 <head>
     <meta charset="UTF-8">
 	<title>Crystals Collector</title>
-  	<link rel="stylesheet" type="text/css" href="assets/css/reset.css"> 
+  	<!--<link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
 	<script type= "text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
 	
 </head>
 <body>
+    <div class="container-fluid">
    <header>
+       <div class="row">
+           <div class="col-md-12">
         <h1 id ="title">Crystals Collector!</h1>
+           </div>
+       </div>
    </header>
-   <div class="list">
+
+   <div class="row">
+   <div class="col-md-8" id="list">
         <ul>
 		<li> You will be given a random number at the start of the game.</li>
 		<li> There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</li>
@@ -21,26 +28,43 @@
 		<li> Each time the game starts, the game will change the values of each crystal.</li>
 		</ul>
     </div>
-    <div class= "row">
-		<div class="start" class="col-md-4">
-        <div class="randomNumber"></div>
+    <div class="col-md-4"> </div>
+    </div>
+<br>
+    <div class="row">
+	<div id="start" class="col-md-4">
+        <div id="randomNumber"></div>
     	
-        <div class="result" class="col-md-4">
+        <div id="result" class="col-md-4">
         	Wins:<div id="wins"></div>
         	Losses:<div id="losses"></div>
         </div>
-    </div>
-	</div>
-    <div class="crystals" class="col-md-12">
+        <div class="col-md-4"></div>
+        </div>
+<br>	
+    <div class="row">
+    <div id="crystals" class="col-md-12">
       	<img src="assets/images/crystal1.jpg" class="click" id="crystal1" alt="First Crystal">
 		<img src="assets/images/crystal2.jpg" class="click" id="crystal2" alt="Second Crystal">
 		<img src="assets/images/crystal3.jpg" class="click" id="crystal3" alt="Third Crystal">
 		<img src="assets/images/crystal4.jpg" class="click" id="crystal4" alt="Fourth Crystal">
    </div>
-   <div class="score">
-        <h3>Your total score is:</h3>
    </div>
-   <div class="addedScore"></div>
+<br>
+   <div class="row">
+   <div class="col-md-4" id="score">
+        <h3>Your total score is:</h3>
+    </div>
+    <div class="col-md-8">
+    </div>
+    </div>
+
+    <div class="row">
+   <div class="col-md-4" id="addedScore"></div>
+    <div class="col-md-8">
+    </div>
+
+    </div>
 
 	<script type="text/javascript" src="assets/javascript/game.js"></script>
   <!-- Latest compiled and minified CSS -->

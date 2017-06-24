@@ -13,8 +13,8 @@ audio.play();
 
 
 var updateaddedScore = function () {
-	$(".addedScore").empty();
-	$(".addedScore").append(addedScore);
+	$("#addedScore").empty();
+	$("#addedScore").append(addedScore);
 	$("#wins").empty();
 	$("#wins").append(wins);
 	$("#losses").empty();
@@ -25,8 +25,8 @@ var restart = function(){
 	addedScore = 0;
     randomNumber = Math.floor((Math.random()* 100) + 19);
 
-	$(".randomNumber").empty();
-	$(".randomNumber").append(randomNumber);
+	$("#randomNumber").empty();
+	$("#randomNumber").append(randomNumber);
 
     crystal1 = Math.floor((Math.random()*12) + 1);
     crystal2 = Math.floor((Math.random()*12) + 1);
@@ -55,9 +55,9 @@ var restart = function(){
 
     }
 
-$(".randomNumber").append(randomNumber);
+$("#randomNumber").append(randomNumber);
 
-$(".addedScore").append(addedScore);
+$("#addedScore").append(addedScore);
 
 $(document).ready(function(){
     console.log("document");
