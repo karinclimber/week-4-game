@@ -1,35 +1,38 @@
-#title {
+.navbar {
 	background-color: #e3aeb7;
-	width:300px;
 	height: 70px;
 	color: #834381;
-	margin-bottom: 10px;
-	font-size: 40px;
+	margin-bottom: 30px;
 	font-family: "Acme", sans serif;
+}
+.navbar-brand {
+	font-size: 40px;
 	padding-top: 20px;
 }
 
+
 #crystals {
 	display: inline;
+	margin-left: 150px;
+	
 }
+
 body {
 	background-image: url("../images/backgroundimage.jpg");
 	background-size:100%;
-	font: #fff;
-	text-align: center;
 	display: inline;
 
 }
 
-#list {
-	height:300px;
+.list-square {
+	height:295px;
 	width:300px;
 	background-color: #834381;
-	font: white; 
-	padding:10px;
+	color: #e3aeb7; 
+	padding: 30px;
 	text-align: center;
 	margin-bottom: 10px;
-	margin-right: 50px;
+	margin-left: 150px;
 	font-family: "Acme", sans serif;
 }
 
@@ -38,59 +41,58 @@ body {
 	width: 200px;
 }
 
-#result {
-	height: 150px;
-	width: 150px;
-	background-color: #834381;
-	margin-left: 160px;
-	font-family: "Acme", sans serif;
-	display:inline;
-}
-
 #start {
 	display: inline-block;
 	height: 150px;
 	width: 300px;
+	margin-left: 150px;
 }
 
 #randomNumber {
-	width: 150px;
-	height: 150px;
 	background-color: #e3aeb7;
 	font-size: 50px;
 	color:#834381;
 	font-family: "Acme", sans serif;
-	display:inline;
+	padding: 50px;
+	text-align: center;
+}
+
+#result {
+	height: 150px;
+	width: 150px;
+	background-color: #834381;
+	font-family: "Acme", sans serif;
+	display: inline-block;
+	color:#e3aeb7;
+	padding: 20px;
+	text-align: center;
 }
 
 #score {
 	width: 200px;
-	height:30px;
+	height: 30px;
+	padding: 7px;
 	background-color: #834381;
-	margin-bottom: 10px;
-	font: white;
-
+	color:#e3aeb7;
+	font-family: "Acme", sans serif;
+	margin-left: 165px;	
+	text-align: center;
 }
+
+#wins, #losses {
+	padding: 30px;
+	padding-top: 10px;
+}
+
 #addedScore {
 	width:200px;
 	height:90px;
 	background-color: #834381;
 	font-size: 30px;
-	color: white;
-
-
+	color:#e3aeb7;
+	font-family: "Acme", sans serif;
+	margin-left: 165px;
+	padding: 35px;
+	text-align: center;
+	margin-bottom: 20px;
 }
-
-.container-fluid {
-	width: 90%;
-	height: 90%;
-}
-
-/* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) { ... }
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) { ... }
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) { ... }
