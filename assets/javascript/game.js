@@ -8,7 +8,7 @@ var crystal2 = Math.floor((Math.random()* 12) + 1);
 var crystal3 = Math.floor((Math.random()* 12) + 1);
 var crystal4 = Math.floor((Math.random()* 12) + 1);
 
-var audio = new Audio("assets/images/A_great_rev8.wav");
+var audio = new Audio("assets/images/A_Great_rev8.wav");
 audio.play();
 
 
